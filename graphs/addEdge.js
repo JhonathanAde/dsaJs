@@ -20,3 +20,12 @@ class Graph {
     return false;
   }
 }
+
+let myGraph= new Graph()
+
+myGraph.addVertex(1);
+myGraph.addVertex(2);
+console.log(myGraph);
+console.log(myGraph.addEdge("1", "2"));
+console.log(myGraph.addEdge("1", "3"));
+console.log(myGraph);
